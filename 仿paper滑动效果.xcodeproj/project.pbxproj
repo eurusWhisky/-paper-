@@ -15,6 +15,7 @@
 		DF428C7721AD469B00E2C030 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF428C7621AD469B00E2C030 /* main.m */; };
 		DF428C8121AD469B00E2C030 /* _paper____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF428C8021AD469B00E2C030 /* _paper____Tests.m */; };
 		DF428C8C21AD469B00E2C030 /* _paper____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF428C8B21AD469B00E2C030 /* _paper____UITests.m */; };
+		DF428C9C21AD470700E2C030 /* ZXFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DF428C9B21AD470700E2C030 /* ZXFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		DF428C8721AD469B00E2C030 /* 仿paper滑动效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿paper滑动效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF428C8B21AD469B00E2C030 /* _paper____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_paper____UITests.m"; sourceTree = "<group>"; };
 		DF428C8D21AD469B00E2C030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF428C9921AD46C900E2C030 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DF428C9A21AD470700E2C030 /* ZXFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXFlowLayout.h; sourceTree = "<group>"; };
+		DF428C9B21AD470700E2C030 /* ZXFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,9 @@
 				DF428C6821AD469900E2C030 /* AppDelegate.m */,
 				DF428C6A21AD469900E2C030 /* ViewController.h */,
 				DF428C6B21AD469900E2C030 /* ViewController.m */,
+				DF428C9A21AD470700E2C030 /* ZXFlowLayout.h */,
+				DF428C9B21AD470700E2C030 /* ZXFlowLayout.m */,
+				DF428C9921AD46C900E2C030 /* PrefixHeader.pch */,
 				DF428C6D21AD469900E2C030 /* Main.storyboard */,
 				DF428C7021AD469B00E2C030 /* Assets.xcassets */,
 				DF428C7221AD469B00E2C030 /* LaunchScreen.storyboard */,
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF428C6C21AD469900E2C030 /* ViewController.m in Sources */,
+				DF428C9C21AD470700E2C030 /* ZXFlowLayout.m in Sources */,
 				DF428C7721AD469B00E2C030 /* main.m in Sources */,
 				DF428C6921AD469900E2C030 /* AppDelegate.m in Sources */,
 			);
@@ -437,6 +445,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4C732G6M6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chenweijie/软件编程/github的项目/仿paper滑动效果/仿paper滑动效果/PrefixHeader.pch";
 				INFOPLIST_FILE = "仿paper滑动效果/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +464,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4C732G6M6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chenweijie/软件编程/github的项目/仿paper滑动效果/仿paper滑动效果/PrefixHeader.pch";
 				INFOPLIST_FILE = "仿paper滑动效果/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
